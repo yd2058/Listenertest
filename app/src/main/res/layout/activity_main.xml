@@ -23,12 +23,12 @@
             android:layout_height="0dp"
             android:layout_weight="1" />
 
-        <Button
+        <ImageView
             android:id="@+id/btnr"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="Button" />
+            app:srcCompat="@drawable/red" />
 
         <Space
             android:layout_width="match_parent"
@@ -40,19 +40,19 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="Results for this round" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1" />
 
-        <Button
+        <ImageView
             android:id="@+id/btnb"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:background="#4666FF" />
+            app:srcCompat="@drawable/blue" />
 
         <Space
             android:layout_width="match_parent"
